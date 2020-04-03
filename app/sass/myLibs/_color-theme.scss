@@ -1,0 +1,45 @@
+$distance: 60;
+$invert-distance: $distance * -1;
+
+// the main colors
+$base-color: hsl(0, 0%, 14%);
+$info-color: adjust-color($base-color, $hue: 160, $saturation: 49%, $lightness: 42%);
+$warn-color: adjust-color($base-color, $hue: 18, $saturation: 87%, $lightness: 62%);
+$light-color: #efede8;
+$success-color: #ebe7df;
+$dark-color: adjust-color($base-color, $lightness: 4%);
+
+// font-color
+$font-color: #242424;
+$font-alt-color: #979797;
+$font-superLight-color: #fff;
+$font-light-color: #ecece8;
+$font-dark-color: #717171;
+$font-info-color: $info-color;
+
+// font-shadow-color
+
+// link-color 
+$link_colorHovered: $info-color;
+$link_color_light: #7e7e7e;
+$link_color_lightHoverd: adjust-color($link_color_light, $lightness: -10%);
+
+// buttons-colors
+
+//icon-color (for svg)
+$icon-color: #6e6e6e;
+$icon-colorHovered: $info-color;
+$icon_color_light: #7e7e7e;
+$icon_color_lightHoverd: adjust-color($link_color_light, $lightness: -10%);
+
+// round-border
+
+// row-color
+
+// gradient
+
+/* 
+Example:
+   @alert-primary-bg: lighten(@base-color, 35%);
+   @alert-primary-border: darken(spin(@alert-primary-bg, -10), 5%);
+   @alert-primary-text: darken(@alert-primary-bg, 50%); */

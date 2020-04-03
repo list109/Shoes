@@ -1,0 +1,87 @@
+$contentFont: 'Aller', sans-serif;
+$altFont: 'Myriad Pro', sans-serif;
+$logoFont: 'Century Gothic', sans-serif;
+// ============================== some font ==============================
+
+// @font-face {
+//     font-family: 'Noto Sans';
+//     src: url('../fonts/noto_sans-regular/notosans-regular-webfont.eot');
+//     src: url('../fonts/noto_sans-regular/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/noto_sans-regular/notosans-regular-webfont.woff2') format('woff2'),
+//          url('../fonts/noto_sans-regular/notosans-regular-webfont.woff') format('woff'),
+//          url('../fonts/noto_sans-regular/notosans-regular-webfont.ttf') format('truetype'),
+//          url('../fonts/noto_sans-regular/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+//     font-weight: 400;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller-regular-italic/aller_it-webfont.eot');
+    src: url('../fonts/aller-regular-italic/aller_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller-regular-italic/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/aller-regular-italic/aller_it-webfont.woff') format('woff'),
+         url('../fonts/aller-regular-italic/aller_it-webfont.ttf') format('truetype'),
+         url('../fonts/aller-regular-italic/aller_it-webfont.svg#alleritalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller-regular/aller_rg-webfont.eot');
+    src: url('../fonts/aller-regular/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller-regular/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/aller-regular/aller_rg-webfont.woff') format('woff'),
+         url('../fonts/aller-regular/aller_rg-webfont.ttf') format('truetype'),
+         url('../fonts/aller-regular/aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller-light/aller_lt-webfont.eot');
+    src: url('../fonts/aller-light/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller-light/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/aller-light/aller_lt-webfont.woff') format('woff'),
+         url('../fonts/aller-light/aller_lt-webfont.ttf') format('truetype'),
+         url('../fonts/aller-light/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller-bold/aller_bd-webfont.eot');
+    src: url('../fonts/aller-bold/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller-bold/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/aller-bold/aller_bd-webfont.woff') format('woff'),
+         url('../fonts/aller-bold/aller_bd-webfont.ttf') format('truetype'),
+         url('../fonts/aller-bold/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/myriad_pro-regular/MyriadPro-Regular.eot');
+    src: url('../fonts/myriad_pro-regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriad_pro-regular/MyriadPro-Regular.woff2') format('woff2'),
+         url('../fonts/myriad_pro-regular/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/myriad_pro-regular/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/myriad_pro-regular/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/century-gothic/CenturyGothic.eot');
+    src: url('../fonts/century-gothic/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/century-gothic/CenturyGothic.woff2') format('woff2'),
+         url('../fonts/century-gothic/CenturyGothic.woff') format('woff'),
+         url('../fonts/century-gothic/CenturyGothic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
