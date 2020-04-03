@@ -70,7 +70,7 @@ class Slider {
             let index = this.pointNumber + 1;
             if(index > this.sliderLine.children.length - 1) index = 0;
             this.changePoints(index);
-        }, 2 * 1000);
+        }, this.time * 1000);
     }
 
     stopTimer() {
