@@ -943,6 +943,9 @@ small {
   padding-top: 70px;
   background-size: cover;
   background-repeat: no-repeat; }
+  @media (min-width: 1400px) {
+    .bunner {
+      background-position: 0 60%; } }
   @media (max-width: 991.98px) {
     .bunner {
       background-position: 30% 0; } }
