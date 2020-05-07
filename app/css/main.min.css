@@ -929,7 +929,8 @@ small {
   display: flex;
   justify-content: space-between;
   min-height: 460px;
-  transition: transform .4s linear; }
+  transition: transform .4s linear;
+  cursor: pointer; }
   @media (max-width: 767.98px) {
     .bunner-list {
       min-height: initial; } }
@@ -1307,6 +1308,9 @@ small {
     position: absolute;
     bottom: -49px;
     left: 12px; }
+    @media (max-width: 1199.98px) {
+      .offer-sale-notice {
+        bottom: -45px; } }
     @media (max-width: 991.98px) {
       .offer-sale-notice {
         bottom: initial;

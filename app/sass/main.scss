@@ -53,6 +53,7 @@
     justify-content: space-between;
     min-height: 460px;
     transition: transform .4s linear;
+    cursor: pointer;
     @include media-breakpoint-down(sm) {
         min-height: initial;
     }
@@ -490,6 +491,9 @@
         position: absolute;
         bottom: -49px;
         left: 12px;
+        @include media-breakpoint-down(lg) {
+            bottom: -45px;
+        }
         @include media-breakpoint-down(md) {
             bottom: initial;
             top: 0;
