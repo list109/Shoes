@@ -131,7 +131,6 @@ class Slider {
 
     startTimer() {
         this.interval = setInterval(() => {
-            console.log(`setTimeout: ${this.timeout}`);
             let index = this.pointNumber + 1;
             this.changePoints(index);
         }, this.time * 1000);
