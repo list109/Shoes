@@ -66,33 +66,10 @@
 
     min-width: 100%;
     padding-top: 70px;
-    background: {
-        size: cover;
-        repeat: no-repeat;
-    };
-    @media(min-width: 1400px) {
-        background-position: 0 60%;
-    }
-    @include media-breakpoint-down(md) {
-        background-position: 30% 0;
-    }
-    @include media-breakpoint-up(md) {
-        @include retina-between(1, 1.99) {
-            background-image: url("../img/header/fon-2800.jpg");
-        }
-        @include retina-min(2) {
-            background-image: url("../img/header/fon-1400.jpg");
-        }
-    }
+    position: relative;
     @include media-breakpoint-down(sm) {
         padding-top: 30px;
         padding-bottom: 30px;
-        @include retina-between(1, 1.99) {
-            background-image: url("../img/header/fon-1400.jpg");
-        }
-        @include retina-min(2) {
-            background-image: url("../img/header/fon-1000.jpg");
-        }
     }
     &__info {
         position: relative;
@@ -125,6 +102,15 @@
     }
     &__notice {
         margin-bottom: 13px;
+    }
+    &__image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        @include media-breakpoint-down(sm) {
+            object-position: 30% 50%;
+        }
     }
 }
 
@@ -176,10 +162,6 @@
             justify-content: flex-start;
             .features-list__item + .features-list__item {
                 margin-left: 10px;
-            }
-            .features-list__icon {
-                // height: 24px;
-                // width: 24px;
             }
             .features-list__link {
                 width: 30px;
