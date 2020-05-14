@@ -942,32 +942,11 @@ small {
   font-size: 1rem;
   min-width: 100%;
   padding-top: 70px;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  @media (min-width: 1400px) {
-    .bunner {
-      background-position: 0 60%; } }
-  @media (max-width: 991.98px) {
-    .bunner {
-      background-position: 30% 0; } }
-
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 1.99), (min-width: 768px) and (min-resolution: 1dppx) and (max-resolution: 1.99dppx) {
-  .bunner {
-    background-image: url("../img/header/fon-2800.jpg"); } }
-
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 2dppx) {
-  .bunner {
-    background-image: url("../img/header/fon-1400.jpg"); } }
+  position: relative; }
   @media (max-width: 767.98px) {
     .bunner {
       padding-top: 30px;
       padding-bottom: 30px; } }
-  @media (max-width: 767.98px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 1.99), (max-width: 767.98px) and (min-resolution: 1dppx) and (max-resolution: 1.99dppx) {
-    .bunner {
-      background-image: url("../img/header/fon-1400.jpg"); } }
-  @media (max-width: 767.98px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767.98px) and (min-resolution: 2dppx) {
-    .bunner {
-      background-image: url("../img/header/fon-1000.jpg"); } }
   .bunner__info {
     position: relative;
     left: 52.9%;
@@ -995,6 +974,14 @@ small {
     max-height: 100px; }
   .bunner__notice {
     margin-bottom: 13px; }
+  .bunner__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1; }
+    @media (max-width: 767.98px) {
+      .bunner__image {
+        object-position: 30% 50%; } }
 
 .features-list {
   display: flex; }
