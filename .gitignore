@@ -1,4 +1,3 @@
-node_modules
-dist
-prod
-fonts.txt
+node_modules/
+/dist/
+/prod/
