@@ -1,1 +1,1 @@
-# Shoes project with mobile version
+# The Shoes project with mobile version
